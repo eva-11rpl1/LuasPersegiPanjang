@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas</title>
+    <style>
+        .retangle-container{
+            background-color: rgb(0, 0, 0);
+            color: skyblue;
+            width: 500px;
+            border: 30px solid grey;
+            padding: 50px;
+            margin: auto;
+        }
+        button{
+            background-color: skyblue;
+            color: black;
+            border: none;
+            min-height: 20px;
+            min-width: 40px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: grey;
+            color: skyblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="retangle-container">
+        <h1>Luas Persegi Panjang</h1>
+        <p>Panjang (cm)</p>
+        <input class="panjang-input-field" type="text">
+        <p>Lebar (cm)</p>
+        <input class="lebar-input-field" type="text">
+        <button onclick="myFunction()" class="retangle">Gass</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
